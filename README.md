@@ -1,3 +1,5 @@
+![cover](https://github.com/Yashraghuvans/Asmodeus/blob/main/assets/cover.gif)
+
 # ASMODEUS
 
 A powerful and visually engaging Bash script designed to provide a comprehensive report of your system's vital statistics, network configuration, and resource utilization. This tool is invaluable for **ethical hacking reconnaissance**, **security auditing**, and **system vulnerability assessment**, allowing you to quickly gather critical information about a target system in a single, organized report.
@@ -37,6 +39,13 @@ This tool empowers security professionals and enthusiasts to quickly understand 
 
 ---
 
+# SnapShots 
+
+![demo1](https://github.com/Yashraghuvans/Asmodeus/blob/main/assets/demo1.png)
+![demo1](https://github.com/Yashraghuvans/Asmodeus/blob/main/assets/demo2.png)
+
+---
+
 ## How to Use
 
 ### Installation
@@ -50,28 +59,28 @@ This tool empowers security professionals and enthusiasts to quickly understand 
 
 2.  **Make the script executable:**
     ```bash
-    chmod +x asmodeus.sh
+    chmod +x asmo.sh
     ```
 
 ### Running the Script
 
 * **Basic Usage:** Simply run the script to display the system report in your terminal.
     ```bash
-    ./asmodeus.sh
+    ./asmo.sh
     ```
 
 * **Disable Color Output:** If you prefer a plain text output without ANSI colors, use this option:
     ```bash
-    ./asmodeus.sh --no-color
+    ./asmo.sh --no-color
     # OR
-    ./asmodeus.sh -n
+    ./asmo.sh -n
     ```
 
 * **Save Report to a File:** Redirect the output to a file for later review or analysis.
     ```bash
-    ./asmodeus.sh --output system_report.txt
+    ./asmo.sh --output system_report.txt
     # OR
-    ./asmodeus.sh -o my_report.log
+    ./asmo.sh -o my_report.log
     ```
     You can then view the saved report:
     ```bash
@@ -80,9 +89,9 @@ This tool empowers security professionals and enthusiasts to quickly understand 
 
 * **Display Help Message:** Get a quick overview of the available options:
     ```bash
-    ./asmodeus.sh --help
+    ./asmo.sh --help
     # OR
-    ./asmodeus.sh -h
+    ./asmo.sh -h
     ```
 
 ---
